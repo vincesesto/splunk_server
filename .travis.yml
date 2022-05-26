@@ -13,7 +13,7 @@ addons:
 
 install:
   # Install ansible
-  - pip3 install ansible
+  - - pip3 install ansible==2.10 molecule-ec2 pytest-testinfra boto boto3 awscli
 
   # Check ansible version
   - ansible --version
